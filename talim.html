@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Ta'lim Loyihasi — Taqdimot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+                .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2c3e50;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+        }
+
+        .l h1 {
+            color: white;
+            font-size: 28px;
+        }
+
+        .a {
+            display: flex;
+            gap: 35px;
+        }
+
+        .a a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 4px;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .a a:hover,
+        .a a.active {
+            color: #3498db;
+        }
+
+        .a a::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: #3498db;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: width 0.3s ease;
+        }
+
+        .a a:hover::after,
+        .a a.active::after {
+            width: 70%;
+        }
+
+
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 900px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c7be5;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background-color: #eaf2ff;
+            padding: 10px;
+            border-left: 5px solid #2c7be5;
+            margin: 15px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c7be5;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+        <div class="nav">
+        <div class="l">
+            <h1>6-Maktab</h1>
+        </div>
+        <div class="a">
+            <a href="index.html">Bosh sahifa</a>
+            <a href="haqida.html">Maktab haqida</a>
+            <a href="#"  class="active">Ta'lim</a>
+            <a href="boglanish.html">Bog'lanish</a>
+            <a href="#">AI yordamchi</a>
+        </div>
+    </div>
+
+
+
+<section>
+    <h2>1. Mavzuni aniqlash va maqsad</h2>
+    <ul>
+        <li>Maktabda raqamli ta'limni rivojlantirish</li>
+        <li>O‘zbek tilini o‘rganishda interaktiv usullar</li>
+        <li>Inklyuziv ta'lim — barcha bolalar uchun teng imkoniyat</li>
+        <li>Ekologik ta'lim va yashil loyihalar</li>
+    </ul>
+
+    <div class="highlight">
+        <strong>Savollar:</strong><br>
+        • Loyiha nimani yaxshilaydi?<br>
+        • Kimlar uchun foydali?
+    </div>
+</section>
+
+<section>
+    <h2>2. Loyiha Tuzilmasi</h2>
+    <h3>Kirish</h3>
+    <ul>
+        <li>Mavzu dolzarbligi</li>
+        <li>Maqsad va vazifalar</li>
+        <li>Tadqiqot ob'ekti va predmeti</li>
+    </ul>
+
+    <h3>Asosiy qism</h3>
+    <ul>
+        <li>Hozirgi holat</li>
+        <li>Mavjud muammolar</li>
+        <li>Taklif va yechimlar</li>
+    </ul>
+
+    <h3>Amaliy qism</h3>
+    <ul>
+        <li>So‘rovnoma va diagrammalar</li>
+        <li>Tajriba o‘tkazish</li>
+        <li>Natijalar</li>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Vizual Qism</h2>
+    <ul>
+        <li>PowerPoint yoki Canva slaydlar</li>
+        <li>Fotosuratlar va grafiklar</li>
+        <li>Kam matn, ko‘proq asosiy fikrlar</li>
+    </ul>
+</section>
+
+<section>
+    <h2>4. Taqdimotga Tayyorgarlik</h2>
+    <ul>
+        <li>3–5 daqiqa nutq</li>
+        <li>Har bir ishtirokchi o‘z qismini tushuntiradi</li>
+        <li>Savollarga tayyor bo‘lish</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Tez va Oddiy Loyiha G‘oyalari</h2>
+    <ul>
+        <li>O‘zbek tili oson o‘rganish to‘garagi</li>
+        <li>1-sinf o‘quvchilari uchun raqamli hikoyalar</li>
+        <li>Xorijiy tillarni o‘yin orqali o‘rganish</li>
+        <li>Ekologik ta'lim — chiqindilarni saralash</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Muvaffaqiyat tilaymiz! 💪</p>
+</footer>
+
+</body>
+</html>
